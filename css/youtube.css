@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(255, 255, 255); 
+    margin: 0;
+
+}
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+header img{
+    width: 150px;
+    border-radius: 30px;
+}
+ header input{
+    width: 900px;
+    height: 40px;
+    margin-left: 500px;
+    border-radius: 30px;
+    font-size: 15px;
+ }
+ header .microfono{
+ 
+    height: 45px;
+    border-radius: 50px;
+    margin-left: 10px;
+    width: 40px;
+ }
+ header .acceder{
+  
+    color: rgb(14, 12, 12);
+    margin-left: 50vh;
+    font-size: 20px;
+    border-radius: 80px;
+    border: 1px solid grey;
+    height:  50px;
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+ }
+ main{
+    display: flex;
+ }
+
+ article{
+    cursor: pointer;
+    width: 10%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 80px;
+ }
+
+ article p{ 
+    font-size: 35px;
+    background-color: rgba(61, 61, 61, 0.062);
+    border-radius: 90px;
+
+ }
+  section .barra{
+    display: flex;
+    gap: 150px;
+   
+ 
+}
+section .barra p {
+    font-size: 20px;
+    background-color: rgba(128, 128, 128, 0.164);
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 120px;
+   border-radius: 40px;
+   cursor: pointer;
+} 
+
+.videos{
+    align-items: center;
+
+    display: grid;
+   grid-template-columns: repeat(2, 1fr );
+   grid-gap: 10px;
+   grid-auto-rows: minmax(100px, auto);
+} 
+
+.video2{
+    align-items: center;
+    display: flex;
+    margin-left: 50px;
+    width: 1500px;
+    height: 700px;}
+
+   
+
+
+    
+
+
+
+  
+
+
+
+ 

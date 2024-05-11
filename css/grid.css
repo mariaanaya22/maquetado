@@ -1,0 +1,94 @@
+.borde{border: 2px solid red;}
+/*pantalla grande con nombre L*/
+@media screen and (min-width: 800px){
+    body{
+        background-color: blue;
+    }
+    
+}
+/*pantalla pequeña con nombre s */
+@media screen and (max-width: 800px) {
+    body{
+        background-color: rgb(27, 197, 118);
+    }}
+.l-6{ width: 100%;} 
+.l-5{ width: 83,3%;}
+.l-4{ width: 66,666%;}
+.l-3{ width: 50%;}
+.l-2{ width: 33,33%;}
+.l-1{ width: 16,666%;}
+@media screen and (max-width: 800px){
+    body{
+        background-color: rgb(197, 27, 174);
+    }}
+.s-6{ width: 100%;} 
+.s-5{ width: 83,3%;}
+.s-4{ width: 66,666%;}
+.s-3{ width: 50%;}
+.s-2{ width: 33,33%;}
+.s-1{ width: 16,666%;}
+
+@media screen and (min-width: 1000px){
+body{
+ background-color: rgb(27, 197, 50);}}
+.l-12{ width: 100%;} 
+.l-11{ width: 91,663%;}
+.l-10{ width: 83,333%;}
+.l-9{ width: 74,997%;}
+.l-8{ width: 66,664%;}
+.l-7{ width: 58,331%;}
+.l-6{ width: 50%;}
+.l-5{ width: 41,665%;}
+.l-4{ width: 33,332%;}
+.l-3{ width: 24,999%;}
+.l-2{ width: 16,666%;}
+.l-1{ width: 8,333%;}
+
+@media screen and (min-width: 601px) and (max-width: 900px){
+    body{
+     background-color: rgb(86, 29, 112);}}
+    .m-12{ width: 100%;} 
+    .m-11{ width: 91,663%;}
+    .m-10{ width: 83,333%;}
+    .m-9{ width: 74,997%;}
+    .m-8{ width: 66,664%;}
+    .m-7{ width: 58,331%;}
+    .m-6{ width: 50%;}
+    .m-5{ width: 41,665%;}
+    .m-4{ width: 33,332%;}
+    .m-3{ width: 24,999%;}
+    .m-2{ width: 16,666%;}
+    .m-1{ width: 8,333%;}
+
+    @media screen and (min-width: 301px) and (max-width: 600px) {
+        body{ 
+         background-color: rgb(79, 221, 240);}}
+        .s-12{ width: 100%;} 
+        .s-11{ width: 91,663%;}
+        .s-10{ width: 83,333%;}
+        .s-9{ width: 74,997%;}
+        .s-8{ width: 66,664%;}
+        .s-7{ width: 58,331%;}
+        .s-6{ width: 50%;}
+        .s-5{ width: 41,665%;}
+        .s-4{ width: 33,332%;}
+        .s-3{ width: 24,999%;}
+        .s-2{ width: 16,666%;}
+        .s-1{ width: 8,333%;}
+        
+
+  @media screen and (max-width: 300px){
+            body{
+             background-color: rgb(245, 142, 202);}}
+            .xs-12{ width: 100%;} 
+            .xs-11{ width: 91,663%;}
+            .xs-10{ width: 83,333%;}
+            .xs-9{ width: 74,997%;}
+            .xs-8{ width: 66,664%;}
+            .xs-7{ width: 58,331%;}
+            .xs-6{ width: 50%;}
+            .xs-5{ width: 41,665%;}
+            .xs-4{ width: 33,332%;}
+            .xs-3{ width: 24,999%;}
+            .xs-2{ width: 16,666%;}
+            .xs-1{ width: 8,333%;}

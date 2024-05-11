@@ -1,0 +1,18 @@
+.border{
+    border: 1px solid greenyellow;
+}
+.color{
+    color: red;
+    background-color: bisque;
+}
+.tamano{
+    font-size: 30px;
+    text-align: center;
+    font-family: cursive;
+}
+.ancho{
+    border: 1px solid green;
+    color: black;
+    background-color: orange;
+    width: 50%;
+}

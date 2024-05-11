@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/formulario.css">
+</head>
+<body>
+    <h3 class="titulo"> FORMULARIO HTML</h3>
+    <h1 id="formulario"></h1>
+            <li><a href="index.html">home</a></li>
+
+    <main class="main">
+       
+        <form>
+            <label for="nombre">Ingrese Su Nombre</label>
+            <br>
+            <input id="nombre" class="input" type="text" placeholder="eje:maria jose">
+            <label for="apellido">Ingrse Sus Apellidos</label>
+            <br>
+            <input id="apellido" class="input" type="text" placeholder="ejemplo:anaya">
+            <label for="correo">Ingrese su Correo</label>
+            <br>
+            <input class="input" type="email" placeholder="user@gmail.com">
+            <label for="pass">Ingrse Su Contraseña</label>
+            <br>
+            <input id="pass" class="input" type="password" placeholder="contraseña de correo">
+            <label for="numero">Ingres Su Edad</label>
+            <br>
+            <input id="edad" class="input" type="number">
+            <br>
+            <fieldset>
+                <legend>Seleccione Su Genero</legend>
+                <input type="radio" id="femenino" name="genero" value="femenino">
+                <label for="html">Famenino</label>
+                <br>
+                <input type="radio" id="masculino" name="genero" value="maculino">
+                <label for="html">Masculino</label>
+                <br>
+                <input type="radio" id="otro" name="genero" value="otro">
+                <label for="html">LGTBIQ+</label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Selecciona Tu Pais</legend>
+                <select name="pais" id="pais">
+                    <option value="colombia">colombia</option>
+                    <option value="venezuela">venezuela</option>
+                    <option value="brasil">brasil</option>
+                    <option value="peru">peru</option>
+                </select>
+
+            </fieldset>
+            <hr>
+            <label for="file">Seleccione El Archivo</label>
+            <input type="file" name="file" type="file">
+            <hr>
+            <label for="date"> Selecciona La Fecha</label>
+            <input value="date" id="date" name="date" type="date">
+            <br><br>
+            <input type="buttom" value="buttom">
+            <button>enviar</button>
+
+
+        </form>
+    
+
+    </main>
+    
+</body>
+</html>

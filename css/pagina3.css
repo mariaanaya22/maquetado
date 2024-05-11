@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(255, 255, 255); 
+    margin: 0;
+
+}
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+header img{
+    width: 100px;
+    border-radius: 30px;
+}
+ header input{
+    width: 900px;
+    height: 40px;
+    margin-left: 500px;
+    border-radius: 30px;
+    font-size: 15px;
+ }
+ header .microfono{
+ 
+    height: 45px;
+    border-radius: 50px;
+    margin-left: 10px;
+    width: 40px;
+ }
+ header .acceder{
+  
+    color: rgb(14, 12, 12);
+    margin-left: 50vh;
+    font-size: 20px;
+    border-radius: 80px;
+    border: 1px solid grey;
+    height:  50px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+ }
+ main{
+    display: flex;
+ }
+
+ article{
+    cursor: pointer;
+    width: 30%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 80px;
+    
+ }
+
+ article p{ 
+    font-size: 30px;
+    background-color: rgba(61, 61, 61, 0.062);
+    border-radius: 10px;
+
+ }
+  section .barra{
+   display: flex;
+    gap: 130px;
+   
+ 
+}
+section .barra p {
+    font-size: 20px;
+    background-color: rgba(128, 128, 128, 0.164);
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100px;
+   border-radius: 2px;
+   cursor: pointer;
+} 
+
+.videos{
+
+   grid-template-columns: repeat(2, 1fr );
+   grid-gap: 10px;
+   grid-auto-rows: minmax(50px, auto);
+} 
+
+.video2{
+   justify-content: center;
+    display: flex;
+   
+    width: 90%;
+    height: 60vh;}
+
+   
+
+
+    
+
+
+
+  
+
+
+
+ 

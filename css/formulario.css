@@ -1,0 +1,21 @@
+body{
+    background-image: url("https://images.pexels.com/photos/20141199/pexels-photo-20141199/free-photo-of-paisaje-playa-arena-agua.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    color: rgb(248, 246, 246);
+}
+
+.titulo{
+    text-align: center;
+}
+.main{
+    border: 1px double rgb(242, 241, 241);
+    border-radius: 4px;
+    width: 40%;
+    margin: auto;
+    padding: 5px;
+}
+
+.input{
+    width: 90%;
+    opacity: 30px;
+}
